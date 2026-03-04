@@ -13,8 +13,8 @@ Tamagotchi temático de gimnasio desarrollado con React, Vite y Tailwind CSS v4.
 
 ## Funcionalidades
 
-- Tres estados del personaje: proteina, pesas y musculo, que decaen con el tiempo.
-- Cuatro estados visuales: fuerte, normal, hambriento y débil, con imagen distinta para cada uno.
+- Tres variables de estado: proteina, pesas y musculo, que decaen con el tiempo.
+- Cuatro estados visuales del personaje: fuerte, normal, hambriento y débil, con imagen distinta para cada uno.
 - Tres acciones de interacción: comer, entrenar y descansar.
 - Barras de progreso con color dinámico segun el nivel (verde, amarillo, rojo).
 - Animacion del personaje con CSS.
