@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: white;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a0a0a;
+    padding: 20px;
+}
+
+/* Animación del Tamagotchi */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.tamagotchi-img {
+    animation: pulse 2s infinite;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.tamagotchi-img:hover {
+    transform: scale(1.2);
+}
